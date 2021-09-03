@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "adminUsername": {
+            "value": "azureuser" 
+        },
+        "adminPasswordOrKey": {
+            "value": "Adm1n1$trator" 
+        },
+        "osDiskVhdUri": {
+            "value": "" 
+        },
+        "vmName": {
+            "value": "vmfromimage" 
+        },
+        "storageAccountName": {
+            "value": "diagshtgkloighdjsyu" 
+        },
+        "osType": {
+            "value": "Windows"
+        }
+    }
+}
